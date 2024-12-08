@@ -5,7 +5,13 @@ ngEditorHierarchy offers a comprehensive solution for building hierarchical edit
 
 # How can ngEditorHierarchy benefit you?
 
-As a developer, ngEditorHierarchy empowers you to accelerate your development process by providing pre-built, customizable editor forms and grid views. You can easily adapt and integrate these components into your Angular applications to handle complex CRUD operations. By leveraging ngEditorHierarchy's robust features, you can significantly boost your productivity and streamline your development workflow.
+As a developer, ngEditorHierarchy empowers you to accelerate your development process by providing pre-built, customizable editor forms and grid views. You can easily adapt and integrate these components into your Angular applications to handle complex CRUD operations. By leveraging ngEditorHierarchy's robust features, you can significantly boost your productivity and streamline your development workflow. 
+
+It is easy to see that it is not a straightforward task to manually integrate ngEditorHierarchy codes into your project. 
+
+We have a powerful free online tool [JSON to Editor Hierachy](https://jsontoeditors.web.app) automatically and instantly build a ngEditorHierarchy from a JSON string. That is, from a JSON string representing a single business record, you can use this tool to build the hierarchical editor forms and grid views for the whole business record list. 
+
+# Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app).
 
 # What's included in ngEditorHierarchy?
 
@@ -23,27 +29,7 @@ Nested JSON objects and arrays are seamlessly handled through a hierarchical str
 User-friendly icons trigger the display of child forms and grids, allowing for deep-level data manipulation.
 By utilizing ngEditorHierarchy, you can simplify your Angular development process and create efficient, user-friendly interfaces for complex data structures.
 
-# Sample Editor Hierarchies
-
-ngEditorHierarchy showcases its capabilities through several sample editor hierarchies demonstrating its versatility:
-
-### Simple Data Types: 
-This sample presents a three-level hierarchy of editor forms and grids to manage objects with various simple data types. Child forms and grids can be opened for both forms and grids, allowing for deep data manipulation.
-
-### Array Visualization: 
-This sample demonstrates the use of different visual representations for various array data types.
-
-### Predefined Array Selection: 
-This example showcases how to select values from pre-defined arrays within editor forms, simplifying data entry for users.
-
-### Product List Management: 
-This sample delves into a practical application, building an editor hierarchy for managing product lists in an appliance store.
-
-### Coaching School Management:  
-This sample demonstrates the creation of an editor hierarchy for managing coaching schools, showcasing the flexibility of ngEditorHierarchy for complex data structures.
-
-### Real Estate Property Management: 
-Similar to the appliance store example, this sample demonstrates managing a property list for a real estate agency using ngEditorHierarchy.
+# Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app).
 
 # Visual Data Types
 
@@ -83,3 +69,9 @@ Provides UI components for enhanced user experience.
 A powerful grid component for data display and manipulation.
 * [PrimeNG](https://primeng.org/)
 Offers a rich set of UI components for building custom interfaces.
+
+# Sample Editor Hierarchies
+
+Once built into a web application, ngEditorHierarchy showcases its capabilities through several interactive sample editor hierarchies. You can directly interact with these sample hierarchies, creating, editing, and deleting data. All changes are saved to and retrieved from a Firestore database. Explore these samples to gain a deeper understanding of ngEditorHierarchy's potential and its ability to streamline complex data management tasks.
+
+# Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app).
