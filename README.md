@@ -1,53 +1,69 @@
 
-# What is ngEditorHierarchy
-ngEditorHierarchy provides codes to build a hierachy of editor forms and grid views to perform CRUD operations for any complex Json objects. As Json objects can have child objects or arrays, the editor forms or grid views can pop-up its child ones, which can then do the same to an unlimited depth. 
+# What is ngEditorHierarchy?
 
+ngEditorHierarchy offers a comprehensive solution for building hierarchical editor forms and grid views to efficiently perform CRUD operations on complex JSON objects. It seamlessly handles nested JSON structures, enabling you to create and manage hierarchical forms and grids with unlimited depth.
 
-# What ngEditorHierarchy can do for you
-ngEditorHierarchy provides codes in serveral sample editor hierarchys. Suppose you are a developer, you can add or modify their fields to perform CRUD operation for your own json objects. Then you can integrate these editor forms or grid views into your application. Quite often, the CRUD operations are actually the major parts of your applications. In this way, ngEditorHierarchy can boost your productivity to another level.
+# How can ngEditorHierarchy benefit you?
 
-# What are inside the Editor Hierarchy
-The editor form is an Angular Reactive Form used for editing/creating/deleting a Json object. For presenting Json object array, currently, ngEditorHierarchy is using two types of grid views: Angular Grid from AgGrid, and PTable from PrimeNG. If a field is having an object value, an icon will be shown on the editor form and in the cells of the grid view, user can pop-up a child editor form by clicking the icon. If a field is having an array of objects as its value, there are also icons to bring out child grid views. Grid view has icon buttons in the first two columns to bring out editor form for the whole row object. Currently, it doesn't support cell editors.
+As a developer, ngEditorHierarchy empowers you to accelerate your development process by providing pre-built, customizable editor forms and grid views. You can easily adapt and integrate these components into your Angular applications to handle complex CRUD operations. By leveraging ngEditorHierarchy's robust features, you can significantly boost your productivity and streamline your development workflow.
 
-# Sample editor hierarchys
+# What's included in ngEditorHierarchy?
 
-### Sample 1
-Sample 1 presents an editor hierarchy for objedct fields of all the simple data types in three levels of editor form and grid views. Either editor form or grid view can popup child editor form or grid view.
-### Sample 2
-Demostrate  to use all the arrat visual data types.
-### Sample 3
-Demostrate how to select values from predefined arrays.
-### Sample 4
-Demostrate an editor hierarchy to maintain a product list for a appliance shop
-### Sample 5
-Demostrate an editor hierarchy to manage coaching schools 
-## Sample 6
-Demostrate an editor hierarchy to manage a property list for real estate agency.
+### Editor Forms: Angular Reactive Forms are used to create, edit, and delete JSON objects.
+### Grid Views: Two powerful grid view options are available:
+#### Ag-Grid: A feature-rich grid component for displaying and editing data.
+#### PrimeNG's PTable: A versatile table component with customizable features.
+### Hierarchical Structure: Nested JSON objects and arrays are seamlessly handled through a hierarchical structure of forms and grids.
+### Child Forms and Grids: User-friendly icons trigger the display of child forms and grids, allowing for deep-level data manipulation.
+By utilizing ngEditorHierarchy, you can simplify your Angular development process and create efficient, user-friendly interfaces for complex data structures.
+
+# Sample Editor Hierarchies
+
+ngEditorHierarchy showcases its capabilities through several sample editor hierarchies demonstrating its versatility:
+
+### Simple Data Types: This sample presents a three-level hierarchy of editor forms and grids to manage objects with various simple data types. Child forms and grids can be opened for both forms and grids, allowing for deep data manipulation.
+
+### Array Visualization: This sample demonstrates the use of different visual representations for various array data types.
+
+### Predefined Array Selection: This example showcases how to select values from pre-defined arrays within editor forms, simplifying data entry for users.
+
+### Product List Management: This sample delves into a practical application, building an editor hierarchy for managing product lists in an appliance store.
+
+### Coaching School Management:  This sample demonstrates the creation of an editor hierarchy for managing coaching schools, showcasing the flexibility of ngEditorHierarchy for complex data structures.
+
+### Real Estate Property Management: Similar to the appliance store example, this sample demonstrates managing a property list for a real estate agency using ngEditorHierarchy.
 
 # Visual Data Types
-To input or present value for a Json object field in the editor hierarchy, ngEditorHierarchy provide different ways based on its data type. These ways were called as Visual Data Types. They fall into one of the following four categories:  
-### Simple
-Field value were directly shown on grid views.  Different types of HTML input tag is used to input value on editor form.
-### Array
-Icon plus a count will be shown on the grid view. A custom form control will be used on editor form to allow user to input value into the array. 
-For Array of Boolean, the custom form control is a special one and others will use a common one.
-### Object and ArryObject
-Icon will be shown on both editor form and the grid view to open child editor form or grid view resepctively.
-### Long String 
-The field's text can be of multiple lines and will not shown on the grid views. But on the Editor Form, there will be a HTML text-area tag to input text to the field.
 
-# Selector
-In addition to use keyboard to type value into object fields, the editor forms provide another way to input value - select a  value from a predefined array. If the field has a simple value, a signle value can be selected from the array. If the field has an array as its value, multiple values can be selected from the array. The editor forms will read the arrays from a fixed file: editor-hierarchy.constants.ts. You can add new arrays to this file and use their names in your editor forms to allow users to select values from them. 
+ngEditorHierarchy employs various visual representations (Visual Data Types) for different JSON object field data types, enhancing user experience and data clarity:
 
+### Simple: Simple data types like strings and numbers are directly displayed in grid views and use standard HTML input elements like text fields and numbers in editor forms.
 
-# Technology
-To perform CRUD operations, ngEditorHierarchy utilizes the following technology stack:
+### Array: Fields containing arrays are denoted by an icon and a count in the grid view. Editor forms utilize custom controls to allow users to easily add and manage values within the array. Specific formatting is applied to Boolean arrays within this category.
 
-* [Angular](https://angular.dev)
+### Object and ArrayObject: Fields containing nested objects or arrays of objects are marked with icons in both the grid view and the editor form. Clicking an icon opens the corresponding child editor form or grid view for deeper editing.
+
+### Long String: Fields containing lengthy text are not shown in grid views due to space constraints. Editor forms provide a multi-line text area element for users to comfortably input and edit long strings.
+
+# Selecting Values from Predefined Arrays
+
+Beyond manual input, ngEditorHierarchy facilitates selecting values from pre-defined arrays within editor forms. This streamlines data entry for users. The option to select a single value is available for simple data types, while multiple selections can be made for array data types. These predefined arrays are stored in a central location (editor-hierarchy.constants.ts). You can easily add new arrays to this file and reference them in your editor forms to enable value selection.
+
+# Technology Stack
+
+ngEditorHierarchy leverages a robust technology stack to deliver efficient CRUD operations:
+
+* [Angular](https://angular.dev) 
+The core framework for building the application.
 * [NGRX](https://ngrx.io/)
+Provides state management functionalities.
 * [Firestore](https://firebase.google.com/docs/firestore)
+Firebase's NoSQL database for data storage.
 * [Angular Fire](https://github.com/angular/angularfire)
+Integrates Firebase with Angular.
 * [ngxBootstrap](https://valor-software.com/ngx-bootstrap/#/documentation)
+Provides UI components for enhanced user experience.
 * [AgGrid](https://www.ag-grid.com)
+A powerful grid component for data display and manipulation.
 * [PrimeNG](https://primeng.org/)
-
+Offers a rich set of UI components for building custom interfaces.
