@@ -1,6 +1,17 @@
 {
 
+
   "Firebase_Connection": {
+    "apiKey": "AIzaSyCYzliny6dy42neT517i1gWsasl2Ej2F1g",
+    "authDomain": "jsontoeditors.firebaseapp.com",
+    "projectId": "jsontoeditors",
+    "storageBucket": "jsontoeditors.firebasestorage.app",
+    "messagingSenderId": "823064950218",
+    "appId": "1:823064950218:web:64f75bffc2e92441688b33",
+    "measurementId": "G-GXKRFK687K"
+  },
+
+  "Firebase_Connection_j2eh_old": {
     "apiKey": "AIzaSyBvWqhxR0vPDlo-cIej9dr_qVbazdLPkGg",
     "authDomain": "elvg-8ec4e.firebaseapp.com",
     "projectId": "elvg-8ec4e",
