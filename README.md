@@ -11,7 +11,7 @@ It is easy to see that it is not a straightforward task to manually integrate ng
 
 We have a powerful free online tool [JSON to Editor Hierachy](https://jsontoeditors.web.app) automatically and instantly build a ngEditorHierarchy from a JSON string. That is, from a JSON string representing a single business record, you can use this tool to build the hierarchical editor forms and grid views for the whole business record list. 
 
-## Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app)[target="_blank"].
+## Please try <a href="https://jsontoeditors.web.app" target="_blank">JSON String to Editor Hierachy</a>
 
 # What's included in ngEditorHierarchy?
 
@@ -29,7 +29,7 @@ Nested JSON objects and arrays are seamlessly handled through a hierarchical str
 User-friendly icons trigger the display of child forms and grids, allowing for deep-level data manipulation.
 By utilizing ngEditorHierarchy, you can simplify your Angular development process and create efficient, user-friendly interfaces for complex data structures.
 
-## Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app)[target="_blank"].
+## Please try <a href="https://jsontoeditors.web.app" target="_blank">JSON String to Editor Hierachy</a>
 
 # Visual Data Types
 
@@ -74,4 +74,4 @@ Offers a rich set of UI components for building custom interfaces.
 
 Once built into a web application, ngEditorHierarchy showcases its capabilities through several interactive sample editor hierarchies. You can directly interact with these sample hierarchies, creating, editing, and deleting data. All changes are saved to and retrieved from a Firestore database. Explore these samples to gain a deeper understanding of ngEditorHierarchy's potential and its ability to streamline complex data management tasks.
 
-## Please try [JSON String to Editor Hierachy](https://jsontoeditors.web.app)[target="_blank"].
+## Please try <a href="https://jsontoeditors.web.app" target="_blank">JSON String to Editor Hierachy</a>
